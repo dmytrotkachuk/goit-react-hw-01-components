@@ -1,0 +1,40 @@
+.statistics{
+    background-color: #fff;
+    width: 270px;
+    margin: 20px auto;
+    text-align: center;
+}
+.stat-title{
+color: #475965;
+// font-family: "Proxima Nova - Semibold";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+padding: 30px 0;
+}
+.stat-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.stat-item{
+    display: flex;
+    flex-direction: column;   
+    color: #ffffff; 
+    background-color: slateblue;
+    flex-grow: 1;
+    border-right: 1px solid #fff;
+}
+.stat-label{
+// font-family: "Proxima Nova";
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+}
+.stat-percentage{
+// font-family: "Proxima Nova";
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+}
